@@ -561,6 +561,23 @@ ul li {
   padding-left:10px;
 }
 
+#quote1 {
+  background-image:url('images/forest.jpg');
+  padding:50px;
+  color:#fff;
+}
+
+#quote2 {
+  background-image:url('images/forest2.jpg');
+  background-position:center;
+  padding:50px;
+  color:#fff;
+}
+
+#quote1 h3, #quote2 h3 {
+  padding-right:50px;
+}
+
 .fixed-nav h5 {
   text-transform:none;
   color:rgba(103,78,167,0.9);

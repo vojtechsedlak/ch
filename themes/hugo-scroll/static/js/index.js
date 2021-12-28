@@ -10,6 +10,9 @@ var $postholder = $(".post-holder");
 var $postafter = $(".post-after");
 var $sitehead = $("#site-head");
 
+$('#welcome').after('<div id="quote1" style="width:100%;height:200px;"><h3><i>“Parenting consciously isn\’t about getting it right all the time, but about evolving together.”</i></h3><p><i>Shefali Tsabury - The Conscious Parent"</i></p></div>');
+$('#my-approach').after('<div id="quote2" style="width:100%;height:200px;"><h3><i>“Children have a way of helping us return to the wonder and awe we experienced as children when seeing things for the first time."</i></h4></div>');
+
 /* Globals jQuery, document */
 (function ($) {
   "use strict";
@@ -68,6 +71,7 @@ var $sitehead = $("#site-head");
     });
 
     $(".post.last").next(".post-after").hide();
+    $(".post-after").hide();
     if ($sitehead.length) {
       $(window).scroll(function () {
         var w = $(window).scrollTop();
@@ -99,10 +103,10 @@ var $sitehead = $("#site-head");
 
             if (w >= f && w <= b) {
               i.addClass("active");
-              a.fadeOut("slow");
+             // a.fadeOut("slow");
             } else {
               i.removeClass("active");
-              a.fadeIn("slow");
+             // a.fadeIn("slow");
             }
         }
         });
