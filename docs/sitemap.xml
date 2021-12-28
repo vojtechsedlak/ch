@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://peacefulparents.ca/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://peacefulparents.ca/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/services/</loc>
+    <loc>https://peacefulparents.ca/services/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://peacefulparents.ca/tags/</loc>
   </url>
   
 </urlset>
